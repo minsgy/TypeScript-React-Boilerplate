@@ -1,7 +1,7 @@
-import { MainPage } from '@pages';
+import Router from './routes/Routes';
 
 const App = () => {
-    return <MainPage />;
+    return <Router />;
 };
 
 export default App;

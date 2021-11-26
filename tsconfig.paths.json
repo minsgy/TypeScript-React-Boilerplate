@@ -3,7 +3,9 @@
         "baseUrl": "./",
         "paths": {
             "@pages": ["src/pages"],
-            "@components": ["src/components"]
+            "@components": ["src/components"],
+            "@templates": ["src/templates"],
+            "@api": ["src/api"]
         }
     }
 }

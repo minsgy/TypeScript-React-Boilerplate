@@ -1,17 +1,17 @@
 const CracoAlias = require('craco-alias');
 module.exports = {
-    plugins:[
-        { 
-            plugin: CracoAlias, 
-            options: { 
-                source: 'tsconfig', 
+    plugins: [
+        {
+            plugin: CracoAlias,
+            options: {
+                source: 'tsconfig',
                 baseUrl: '.',
                 tsConfigPath: './tsconfig.paths.json',
-                debug: false, 
-            }, 
+                debug: false,
+            },
         },
-    ] ,
+    ],
     babel: {
-        presets: ['@emotion/babel-preset-css-prop']
-    }
-}
+        presets: ['@emotion/babel-preset-css-prop'],
+    },
+};
